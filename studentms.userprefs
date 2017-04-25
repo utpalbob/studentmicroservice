@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{25578A31-C802-44D0-A39A-624BD91166FB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="17" Column="37" />
+      <File FileName="Startup.cs" Line="30" Column="6" />
+      <File FileName="IStudentmsRepository.cs" Line="7" Column="9" />
+      <File FileName="Studentms.cs" Line="13" Column="30" />
+      <File FileName="StudentmsRepository.cs" Line="17" Column="21" />
+      <File FileName="StudentmsController.cs" Line="6" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/utpalchakraborty/studentms/studentms.csproj" relfile="studentms.csproj" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.studentms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

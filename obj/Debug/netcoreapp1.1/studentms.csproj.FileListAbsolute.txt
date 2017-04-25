@@ -1,0 +1,9 @@
+/Users/utpalchakraborty/studentms/bin/Debug/netcoreapp1.1/studentms.deps.json
+/Users/utpalchakraborty/studentms/bin/Debug/netcoreapp1.1/studentms.runtimeconfig.json
+/Users/utpalchakraborty/studentms/bin/Debug/netcoreapp1.1/studentms.runtimeconfig.dev.json
+/Users/utpalchakraborty/studentms/bin/Debug/netcoreapp1.1/studentms.dll
+/Users/utpalchakraborty/studentms/bin/Debug/netcoreapp1.1/studentms.pdb
+/Users/utpalchakraborty/studentms/obj/Debug/netcoreapp1.1/studentms.AssemblyInfo.cs
+/Users/utpalchakraborty/studentms/obj/Debug/netcoreapp1.1/studentms.dll
+/Users/utpalchakraborty/studentms/obj/Debug/netcoreapp1.1/studentms.pdb
+/Users/utpalchakraborty/studentms/obj/Debug/netcoreapp1.1/studentms.csprojResolveAssemblyReference.cache
