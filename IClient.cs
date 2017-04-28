@@ -5,6 +5,6 @@ namespace studentms
 {
     public interface IClient
     {
-         Task<string> GetFee();
+         Task<string> GetFee(int id);
     }
 }

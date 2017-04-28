@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{25578A31-C802-44D0-A39A-624BD91166FB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IClient.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
     <Files>
-      <File FileName="Program.cs" Line="17" Column="37" />
-      <File FileName="Startup.cs" Line="30" Column="6" />
+      <File FileName="Program.cs" Line="20" Column="22" />
+      <File FileName="Startup.cs" Line="45" Column="29" />
       <File FileName="IStudentmsRepository.cs" Line="7" Column="9" />
       <File FileName="Studentms.cs" Line="13" Column="30" />
       <File FileName="StudentmsRepository.cs" Line="17" Column="21" />
-      <File FileName="StudentmsController.cs" Line="6" Column="10" />
-      <File FileName="Client.cs" Line="18" Column="41" />
-      <File FileName="IClient.cs" Line="10" Column="2" />
+      <File FileName="StudentmsController.cs" Line="37" Column="6" />
+      <File FileName="Client.cs" Line="21" Column="4" />
+      <File FileName="IClient.cs" Line="8" Column="30" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

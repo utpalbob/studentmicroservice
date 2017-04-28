@@ -13,7 +13,7 @@ namespace studentms
 
 		private DiscoveryHttpClientHandler handler;
 
-		private const string GRAB_SERVICE_URL_BASE = "http://StudentFee/fee/";
+		private const string STUDENT_SERVICE_URL_BASE = "http://SutdentFee/fee/";
 
 		public Client(IDiscoveryClient client)
 		{
@@ -25,14 +25,14 @@ namespace studentms
 			return new HttpClient(this.handler, false);
 		}
 
-		public async Task<string> GetFee()
+		public async Task<string> GetFee(int id)
 		{
 			string fee;
 			using (HttpClient client = this.CreateHttpClient())
 			{
-				var result = await client.GetStringAsync(GRAB_SERVICE_URL_BASE);
-				List<Dictionary<string, string>> history = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(result);
-				fee = (history[0]["at"]);
+				 fee = await client.GetStringAsync(STUDENT_SERVICE_URL_BASE + id.ToString());
+				//List<Dictionary<string, string>> history = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(result);
+				//fee = (history[0]["at"]);
 			}
 			return fee;
 		}

@@ -24,25 +24,28 @@ namespace studentms
 			return this.Ok(studentmsRepository.All());
 		}
 
-		[HttpGet("/fee")]
-		public async Task<IActionResult> GetFee()
+		[HttpGet("{id}/fee")]
+		public async Task<IActionResult> RetriveFee(int id)
 		{
-
-            return this.Ok(new
-            {
-
-                Fee = new
-                {
-                    fee = await studentmsClient.GetFee()
+			Studentms studentms = studentmsRepository.Get(id);
+			return this.Ok(new
+			{
+				id = studentms.id,
+				name = studentms.Name,
+				address = studentms.Address,
+				Fee = new
+				{
+					fee = await studentmsClient.GetFee(studentms.id)
 				}
 			});
 		}
 
-		[HttpGet("{id}")]
-		public virtual IActionResult Get(int id)
+		[HttpPost("{id}/fee")]
+		public IActionResult Fee(int id)
 		{
 
-			return this.Ok(studentmsRepository.Get(id));
+			this.studentmsClient.GetFee(id);
+			return this.Ok();
 		}
 
 	}

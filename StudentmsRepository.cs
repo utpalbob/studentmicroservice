@@ -15,10 +15,10 @@ namespace studentms{
 			if(studentmsCol == null){
 				studentmsCol = new List<Studentms>(){
 
-					new Studentms(){id=1, Name="Utpal", Address="Mumbai", Course="Computer Science", Fee="Paid"},
-					new Studentms(){id=2, Name="Arnab", Address="Bangalore", Course="Computer Science", Fee="UnPaid"},
-					new Studentms(){id=3, Name="Venkat", Address="Hyderabad", Course="Bio Science", Fee="Paid"},
-					new Studentms(){id=4, Name="Manoj", Address="Pune", Course="Computer Science", Fee="UnPaid"},
+					new Studentms(){id=1, Name="Utpal", Address="Mumbai", Course="Computer Science"},
+					new Studentms(){id=2, Name="Arnab", Address="Bangalore", Course="Computer Science"},
+					new Studentms(){id=3, Name="Venkat", Address="Hyderabad", Course="Bio Science"},
+					new Studentms(){id=4, Name="Manoj", Address="Pune", Course="Computer Science"},
 				};
 			}
 
