@@ -10,8 +10,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
-	<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
 		<PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+    <PackageReference Include="SteelToe.Extensions.Configuration.ConfigServer" Version="1.0.0-*" />
+    <PackageReference Include="SteelToe.Discovery.Client" Version="1.0.0-*" />
+    <PackageReference Include="SteelToe.Discovery.Eureka.Client" Version="1.0.0-*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.*" />
 
 		
   </ItemGroup>

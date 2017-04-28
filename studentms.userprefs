@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{25578A31-C802-44D0-A39A-624BD91166FB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IClient.cs">
     <Files>
       <File FileName="Program.cs" Line="17" Column="37" />
       <File FileName="Startup.cs" Line="30" Column="6" />
@@ -7,6 +7,8 @@
       <File FileName="Studentms.cs" Line="13" Column="30" />
       <File FileName="StudentmsRepository.cs" Line="17" Column="21" />
       <File FileName="StudentmsController.cs" Line="6" Column="10" />
+      <File FileName="Client.cs" Line="18" Column="41" />
+      <File FileName="IClient.cs" Line="10" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

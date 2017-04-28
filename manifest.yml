@@ -1,0 +1,9 @@
+
+---
+applications:
+  - name: studentms
+    disk_quota: 1536M
+    buildoack: https://github.com/cloudfoundry/dotnet-core-buildpack.git
+    services:
+      - config-server
+      - myDirectoryService
